@@ -1,6 +1,6 @@
 # PART 05 [자바스크립트 클래스와 클래스 단위 프로그래밍]
 
-## Chapter 01 [자바스크립트 클래스 기초]
+## [Chapter 01 [자바스크립트 클래스 기초]](https://github.com/kimhyoyeong/K_hyo/blob/master/c01/lesson.md)
 
 L01_클래스 소개
 
