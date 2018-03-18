@@ -205,7 +205,7 @@ $(document).ready(function(){
 })
 ```
 
-
+detail
 
 ```javascript
 (function($){
@@ -220,7 +220,7 @@ $(document).ready(function(){
         })
         
         return this;
-        //아래 참고
+        //메서드 체이닝
         
     }
 })(jQuery);
