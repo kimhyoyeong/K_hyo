@@ -100,14 +100,21 @@ enter();//default value
 | true && value   | value |
 | false && value  | false |
 
-```
+```javascript
 var me = "";
 var you = (me || "hyo"); //"hyo"
 console.log(you);
 
-
 var me = "kim";
 var you = (me || "hyo"); //"kim"
+console.log(you);
+
+var me = "";
+var you = (me && "hyo"); //""
+console.log(you);
+
+var me = "kim";
+var you = (me && "hyo"); //"hyo"
 console.log(you);
 ```
 
