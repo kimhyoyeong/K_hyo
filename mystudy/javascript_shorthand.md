@@ -166,6 +166,4 @@ function enter(pValue){
 enter("2222");
 ```
 
-* isNaN 
-
-Number 형식으로 변환된 값이 NaN이면 true이고, 그렇지 않으면 false입니다.
+* isNaN - Number 형식으로 변환된 값이 NaN이면 true이고, 그렇지 않으면 false입니다.
