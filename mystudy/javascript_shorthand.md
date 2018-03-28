@@ -100,6 +100,19 @@ enter();//default value
 | true && value   | value |
 | false && value  | false |
 
+```
+var me = "";
+var you = (me || "hyo"); //"hyo"
+console.log(you);
+
+
+var me = "kim";
+var you = (me || "hyo"); //"kim"
+console.log(you);
+```
+
+
+
 ## 비교 연산자
 
 | Operator | Description                                                  |
