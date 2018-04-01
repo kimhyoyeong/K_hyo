@@ -38,10 +38,79 @@
 	.content{border-bottom:1px solid #ededed;margin-bottom:80px;padding-bottom:80px}
 	.example-box{overflow:hidden;padding:0 30px 50px}
 
-	[class^='icon-']:before,
-	[class^='icon-']:after{font-size:2em;font-family:"Font Awesome 5 Free";font-weight:900;vertical-align:middle}
-	.icon-user:before{content:'\f007'}
+	[class^='f-icon-']:before,
+	[class^='f-icon-']:after{font-size:2em;font-family:"Font Awesome 5 Free";font-weight:900;vertical-align:middle}
+	.f-icon-user:before{content:'\f007'}
 
+	/* icons */
+	[class^='icon-'] { display: inline-block; position: relative; width: 2.5em; height: 2.5em; font-size: 10px; box-sizing: border-box; vertical-align: middle; }
+	[class^='icon-']:before, [class^='icon-']:after { display: block; content: ""; }
+
+	.icon-menu:before { position: absolute; top: 0.2em; left: 0.1em; width: 2.3em; height: 0.2em; background: #333; -webkit-box-shadow: 0 0.9em #333, 0 1.8em #333; -moz-box-shadow: 0 0.9em #333, 0 1.8em #333; box-shadow: 0 0.9em #333, 0 1.8em #333; }
+
+	[class^='icon-arr-top']:before, .arrow_btn.on [class^='icon-arr-bt']:before { position: absolute; top: 0.9em; left: 0.6em; width: 1.0em; height: 1.0em; border: 0.2em solid #333; border-right-width: 0; border-bottom-width: 0; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); }
+
+	.arrow_btn.on [class^='icon-arr-top']:before, [class^='icon-arr-bt']:before { position: absolute; top: 0.3em; left: 0.7em; width: 1.0em; height: 1.0em; border: 0.2em solid #333; border-right-width: 0; border-bottom-width: 0; transform: rotate(-135deg); -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); -ms-transform: rotate(-135deg); }
+
+	[class^='icon-arr-left']:before { position: absolute; top: 0.7em; left: 0.9em; width: 1.0em; height: 1.0em; border: 0.2em solid #4a7a8a; border-right-width: 0; border-bottom-width: 0; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); }
+
+	[class^='icon-arr-right']:before { position: absolute; top: 0.7em; left: 0.5em; width: 1.0em; height: 1.0em; border: 0.2em solid #333; border-right-width: 0; border-bottom-width: 0; transform: rotate(135deg); -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); -ms-transform: rotate(135deg); }
+
+	.icon-arr-top-w:before, .icon-arr-bt-w:before, .icon-arr-left-w:before, .icon-arr-right-w:before { border-color: #fff; }
+
+	.icon-arr-top-g:before, .icon-arr-bt-g:before, .icon-arr-left-g:before, .icon-arr-right-g:before { border-color: #c2c2c2; }
+
+	[class^='icon-close']:before, [class^='icon-close']:after { position: absolute; top: 1.2em; left: 0.1em; width: 2.4em; height: 0.2em; background-color: #333; -webkit-border-radius: 0.2em; -moz-border-radius: 0.2em; border-radius: 0.2em; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); }
+	[class^='icon-close']:after { transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); }
+
+	.icon-close-w:before, .icon-close-w:after { background-color: #fff; }
+
+	.icon-user { overflow: hidden; background-color: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border: 0.1em solid #333; }
+	.icon-user:after, .icon-user:before { position: absolute; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border-width: 0.1em; border-color: #333; border-style: solid; }
+	.icon-user:after { top: 0.5em; left: 0.7em; width: 0.7em; height: 0.7em; }
+	.icon-user:before { top: 1.3em; left: 0.4em; width: 1.3em; height: 1.5em; }
+
+	.icon-user2, .icon-user2-w { overflow: hidden; background-color: #4c4c4c; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.icon-user2:after, .icon-user2-w:after, .icon-user2:before, .icon-user2-w:before { position: absolute; left: 50%; transform: translateX(-50%); background-color: #fff; }
+	.icon-user2:after, .icon-user2-w:after { top: 0.6em; width: 0.7em; height: 0.7em; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.icon-user2:before, .icon-user2-w:before { top: 1.4em; width: 1.2em; height: 0.4em; -webkit-border-radius: 100% 100% 0 0; -moz-border-radius: 100% 100% 0 0; border-radius: 100% 100% 0 0; }
+	.icon-user2-w { background-color: #fff; }
+	.icon-user2-w:after, .icon-user2-w:before { background-color: #c2c2c2; }
+
+	.icon-more:before { position: absolute; top: 0.3em; left: 1.1em; width: 0.4em; height: 0.4em; background: #c2c2c2; -webkit-border-radius: 0.6em; -moz-border-radius: 0.6em; border-radius: 0.6em; -webkit-box-shadow: 0 0.8em 0 #c2c2c2, 0 1.6em 0 #c2c2c2; -moz-box-shadow: 0 0.8em 0 #c2c2c2, 0 1.6em 0 #c2c2c2; box-shadow: 0 0.8em 0 #c2c2c2, 0 1.6em 0 #c2c2c2; }
+
+	.icon-search:before, .icon-search:after { position: absolute; top: 0.3em; left: 0.3em; }
+	.icon-search:before { width: 1.1em; height: 1.1em; border: 0.1em #888 solid; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; }
+	.icon-search:after { top: 1.3em; left: 1.6em; width: 0.2em; height: 0.8em; border: 0.1em solid #888; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); }
+
+	[class^='icon-mark-'] { background: transparent; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border: 0.1em solid #4A7A8A; box-sizing: border-box; }
+	[class^='icon-mark-']:before { content: ''; position: absolute; left: 0; width: 100%; color: #4A7A8A; font-family: Helvetica, sans-serif; font-weight: bold; font-size: 1.7em; text-align: center; }
+	[class^='icon-mark-'].fill, [class^='icon-mark-'].fill-g { border: 0; background: #0488b3; }
+	[class^='icon-mark-'].fill:before, [class^='icon-mark-'].fill-g:before { color: #FFF; }
+	[class^='icon-mark-'].fill-g { background: #c2c2c2; }
+	[class^='icon-mark-'].small { width: 1.6em; height: 1.6em; font-weight: normal; font-size: 8px; }
+
+	[class^='icon-mark-'].fill:hover,
+	[class^='icon-mark-'].fill-g:hover{background: #f00;animation: push 1s both; animation: push 1s both;  }
+
+	.icon-mark-notice:before { content: '!'; }
+
+	.icon-mark-question:before { content: '?'; }
+
+	.icon-reset { background-color: #c2c2c2; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.icon-reset:after { position: absolute; top: 0.5em; left: 0.5em; width: 1.1em; height: 1.1em; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border-width: 0.2em; border-color: #fff; border-style: solid; border-right-color: transparent; }
+	.icon-reset:before { position: absolute; top: 0.6em; right: 0.1em; width: 0; height: 0; border-width: 0.4em; border-color: #fff; border-style: solid; border-right-color: transparent; border-left-color: transparent; border-bottom-color: transparent; transform: rotate(-58deg); -webkit-transform: rotate(-58deg); -moz-transform: rotate(-58deg); -o-transform: rotate(-58deg); -ms-transform: rotate(-58deg); }
+
+	.icon-check { background-color: #c2c2c2; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.icon-check:after, .icon-check:before { position: absolute; width: 0.2em; background: #fff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+	.icon-check:after { top: 0.6em; left: 1.5em; height: 1.5em; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); }
+	.icon-check:before { top: 1em; left: 0.7em; height: 1em; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); }
+
+	.icon-arr-v2:before { display: block; position: absolute; bottom: 0; left: 1.2em; width: 0; height: 0; border: 0.5em transparent solid; border-right-width: 0; border-left-color: #0488b3; }
+	.icon-arr-v2:after { display: block; position: absolute; bottom: 0.5em; left: 0; width: 1.2em; height: 1.2em; border-bottom: 0.1em #0488b3 solid; border-left: 0.1em #0488b3 solid; }
+
+	@keyframes push { 50% { -webkit-transform: scale(0.8); transform: scale(0.8); }
+	  100% { -webkit-transform: scale(1); transform: scale(1); } }
 </style>
 </head>
 
@@ -55,7 +124,7 @@
 			<div class="example-box">
 				  <i class="fas fa-user"></i>
 				  <br>
-				  <span class="icon-user">고객정보</span>
+				  <span class="f-icon-user">고객정보</span>
 			</div>
 
 			<h2>사이즈</h2>
@@ -134,6 +203,32 @@
 				  <i class="fas fa-cog fa-spin"></i>
 				  <i class="fas fa-spinner fa-pulse"></i>
 				</div>
+			</div>
+			
+
+			<h2>CSS-Icon</h2>
+			<div class="example-box" style="padding:30px;background:#00ff12">
+				<a href="#" class="icon-menu"></a>
+				<a href="#" class="icon-user"></a>
+				<a href="#" class="icon-user2"></a>
+				<a href="#" class="icon-user2-w"></a>
+				<a href="#" class="icon-arr-top"></a>
+				<a href="#" class="icon-arr-bt"></a>
+				<a href="#" class="icon-arr-left"></a>
+				<a href="#" class="icon-arr-right"></a>
+
+				<a href="#" class="icon-close"></a>
+				<a href="#" class="icon-close-w"></a>
+				<a href="#" class="icon-more"></a>
+				<a href="#" class="icon-reset"></a>
+				<a href="#" class="icon-search"></a>
+				<a href="#" class="icon-check"></a>
+
+				<a href="#" class="icon-mark-notice"></a>
+				<a href="#" class="icon-mark-question"></a>
+
+				<a href="#" class="icon-mark-notice fill"></a>
+					<a href="#" class="icon-mark-question fill"></a>
 			</div>
 
 		</div>
