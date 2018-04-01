@@ -105,7 +105,7 @@
 
 [사용예시보러가기](http://13.124.101.236/khy_work/02_icon_css_example.html)
 
-[소스보러가기](http://13.124.101.236/khy_work/02_icon_css_example.html)
+[소스보러가기](https://github.com/kimhyoyeong/K_hyo/blob/master/mystudy/icon_css_example.html)
 
 ## 브라우저 지원
 
