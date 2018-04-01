@@ -107,6 +107,20 @@
 
 [소스보러가기](https://github.com/kimhyoyeong/K_hyo/blob/master/mystudy/icon_css_example.html)
 
+
+
+> **tip.** 실질적으로 사용하는 아이콘만 폰트로 만들기
+>
+> 기본적으로 font awesome 호출되는 웹폰트 용량은 60KB 정도로 크기가 부담이 된다면 실질적으로 사용하는 아이콘으로만 웹폰트를 제작할수 있음.
+>
+> 아이콘 만들기 - http://fontello.com/
+>
+> 참고- https://junistory.blogspot.kr/2017/08/icon-font_2.html
+
+
+
+
+
 ## 브라우저 지원
 
 | Browser | Desktop                                                      | Mobile                         |
@@ -120,18 +134,6 @@
 | Yandex  | 14                                                           |                                |
 
 
-
-
-
-
-
-> **tip.** 실질적으로 사용하는 아이콘만 폰트로 만들기
->
-> 기본적으로 font awesome 호출되는 웹폰트 용량은 60KB 정도로 크기가 부담이 된다면 실질적으로 사용하는 아이콘으로만 웹폰트를 제작할수 있음.
->
-> 아이콘 만들기 - http://fontello.com/
->
-> 참고- https://junistory.blogspot.kr/2017/08/icon-font_2.html
 
 
 
