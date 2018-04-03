@@ -45,9 +45,12 @@
 
 ## CSS Icon
 
-비교적 간단한 아이콘은 CSS만으로도 제작할 수 있습니다.
+아래와 같이 비교적 간단한 아이콘은 CSS만으로도 제작할 수 있습니다.
+
+<img src="http://www.hackersut.com/images/event/2018/040300/icon.gif">
 
 ```CSS
+//화살표
 [class^='icon-']{
     display: inline-block;
     position: relative;
