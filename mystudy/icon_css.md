@@ -8,7 +8,7 @@
 
 ## 기존 사용 방법
 
-대부분 아래와 같이 모든 아이콘을 한 이미지에 저장하여(image stripe), 태그마다 background-position 변경하는 방식으로 아이콘을 설정하였음
+대부분 아래와 같이 모든 아이콘을 한 이미지에 저장하여(image stripe), 태그마다 background-position 변경하는 방식으로 아이콘을 설정하였습니다.
 
 <img src="http://gscdn.hackers.co.kr/champ/images/champstudy/common/bullet2.png">
 
@@ -31,11 +31,58 @@
 
 해당방식의 단점은
 
-이미지 방식으로 확대나 축소시 이미지가 깨질 우려가 있어 크기조절을이 불가능하고,
+이미지 방식으로 확대나 축소시 이미지가 깨질 우려가 있어 크기조절이 불가능하고,
 
-배경색상이나 아이콘색상 변경, 그 외  CSS의 효과를 적용할 수 없다는 단점을 가지고 있다.
+배경색상이나 아이콘색상 변경, 그 외  CSS의 효과를 적용할 수 없다는 단점을 가지고 있습니다.
 
-해당 단점을 보완할 수 있은 새로운 방법을 제시한다.
+해당 단점을 보완할 수 있은 새로운 방법을 알아봅시다!
+
+
+
+------
+
+
+
+## CSS Icon
+
+비교적 간단한 아이콘은 CSS만으로도 제작할 수 있습니다.
+
+```CSS
+[class^='icon-']{
+    display: inline-block;
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.icon-arr:before{
+    display:block;
+    content:'';
+    position: absolute;
+    top: 0.7em;
+    left: 0.5em;
+    width: 1.0em;
+    height: 1.0em;
+    border: 0.2em solid #333;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    transform: rotate(135deg);
+}
+```
+
+
+
+[활용예시보러가기](http://13.124.101.236/khy_work/02_icon_css_example.html)
+
+
+
+> 참고 URL 
+>
+> <http://www.uiplayground.in/css3-icons/>
+> <https://saeedalipoor.github.io/icono/>
 
 
 
@@ -47,7 +94,7 @@
 
 > Font awesome은 가장 유명하고 대표적인 아이콘폰트 제공 사이트
 >
-> 현재 무료로 사용할 수있는 아이콘이 989개 이며, 빠르게 업데이트 되고 있음
+> 현재 무료로 사용할 수있는 아이콘이 989개 이며, 빠르게 업데이트 되고 있습니다.
 >
 > https://fontawesome.com/
 
@@ -55,7 +102,7 @@
 
 크기 / 색상 / 배경색 / 그림자효과 등 CSS 기능을 사용해서 자유롭게 변경 가능한 font 형식의 벡터 아이콘,
 
-이미지 형식들과 달리 크기를 줄이거나 키워도 깨지지 않으며, 어느기기에서나 선명하게 구현됨
+이미지 형식들과 달리 크기를 줄이거나 키워도 깨지지 않으며, 어느기기에서나 선명하게 구현됩니다.
 
 
 
@@ -66,10 +113,14 @@
 
 
 - SVG with JavaScript 
-  아이콘이 페이지에서 비동기적으로 로드됨, 
-  장점은 아이콘 로드동안 페이지 렌더링을 차단하지 않음 단점은 아이콘이 로드되면 레이아웃이 변경될 수 있음
+
+  아이콘이 페이지에서 비동기적으로 로드되며,
+
+  장점은 아이콘 로드동안 페이지 렌더링을 차단하지 않음 단점은 아이콘이 로드되면 레이아웃이 변경될 수 있습니다.
 
   https://fontawesome.com/how-to-use/svg-with-js
+
+  ​
 
 
 
@@ -103,15 +154,14 @@
 
 
 
-[사용예시보러가기](http://13.124.101.236/khy_work/02_icon_css_example.html)
 
-[소스보러가기](https://github.com/kimhyoyeong/K_hyo/blob/master/mystudy/icon_css_example.html)
+[사용예시보러가기](http://13.124.101.236/khy_work/02_icon_font_example.html)
 
 
 
 > **tip.** 실질적으로 사용하는 아이콘만 폰트로 만들기
 >
-> 기본적으로 font awesome 호출되는 웹폰트 용량은 60KB 정도로 크기가 부담이 된다면 실질적으로 사용하는 아이콘으로만 웹폰트를 제작할수 있음.
+> 기본적으로 font awesome 호출되는 웹폰트 용량은 60KB 정도로 크기가 부담이 된다면 실질적으로 사용하는 아이콘으로만 웹폰트를 제작할수 있습니다.
 >
 > 아이콘 만들기 - http://fontello.com/
 >
