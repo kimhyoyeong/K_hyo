@@ -111,15 +111,20 @@
 
 ### 구현 방법
 
-- Web Fonts with CSS
+- **Web Fonts with CSS**
   https://fontawesome.com/how-to-use/web-fonts-with-css
+  웹폰트 방식
 
 
-- SVG with JavaScript 
+- **SVG with JavaScript** 
 
-  아이콘이 페이지에서 비동기적으로 로드되며,
+  SVG는 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 파일 형식으로, 
 
-  장점은 아이콘 로드동안 페이지 렌더링을 차단하지 않음 단점은 아이콘이 로드되면 레이아웃이 변경될 수 있습니다.
+  1999년 W3C 주도하에 개발된 오픈 그래픽 표준이다. 
+
+  때문에 IE8 이전 버전을 제외한 대부분의 브라우저에서 지원된다. 
+
+  사이즈가 변화함에 따라 깨지지 않는 png, jpg 등의 레스터 이미지와는 달리, SVG는 벡터 기반이기 때문에 사이즈 변화에 전혀 지장이 없다.
 
   https://fontawesome.com/how-to-use/svg-with-js
 
@@ -188,5 +193,10 @@
 
 
 
+------
 
 
+
+## SVG
+
+2탄으로~
