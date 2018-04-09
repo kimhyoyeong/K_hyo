@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>바메뉴</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+	
+	<style>
+        * {
+			padding:0;
+			margin:0;
+		}
+		body{
+			font-size:9pt;
+		}
+		.bar-menu {
+			position:relative;
+			height:78px;
+			border:7px solid #eee;
+			cursor:pointer;
+		}
+		.bar-menu ul.menu-body {
+			position:relative;
+			list-style: none;
+			margin-top:10px;
+			height:100%;
+		}
+
+		.bar-menu ul.menu-body li {
+			height:30px;
+			padding:10px;
+	
+			margin-left:10px;
+			float:left;
+			line-height:30px;
+			vertical-align:middle;
+			border:4px solid #000;
+			display:inline-block;
+		}
+		/* 선택 메뉴 아이템 스타일 */
+		.bar-menu ul.menu-body li.select {
+			background-color:#ff0;
+		}
+		/* 오버 메뉴 아이템 스타일 */
+		.bar-menu ul.menu-body li.over {
+			background-color:#eee;
+		}
+		.bar-menu .bar {
+			width:0;
+			height:10px;
+			background-color:#f00;
+			position: absolute;
+			left:0;
+			bottom:0;
+		}
+		#barMenu1 {
+			position:relative;
+	
+			left:100px;
+			top:100px;
+			width:700px;
+		}
+		
+    </style>
+</head>
+<script>
+
+	function BarMenu(selector){
+		this.$barMenu=null;
+		this.$menuBody=null;
+		this.$menuItems=null;
+		this.$overItem=null;
+		this.$selectItem=null;
+		this.$bar=null;
+		
+		this.init(selector);
+		this.initEvent();
+	}
+
+	BarMenu.prototype.init=function(selector){
+		this.$barMenu=$(selector);
+		this.$menuBody=this.$barMenu.find(".menu-body");
+		this.$menuItems=this.$menuBody.find("li");
+		this.$bar=this.$barMenu.find(".bar");
+	};
+	
+	BarMenu.prototype.initEvent=function(){
+		var objThis=this;
+		
+		this.$menuItems.mouseenter(function(e){
+			objThis.setOverMenuItem($(this));
+		});
+		
+		this.$menuItems.mouseleave(function(e){
+			objThis.removeOverItem();
+			objThis.reSelectMenuItem();
+			
+		});
+
+		this.$menuItems.click(function(e){
+			objThis.removeOverItem();
+			objThis.setSelectMenuItem($(this));
+		});
+	};
+	
+	BarMenu.prototype.setOverMenuItem=function($item){
+		if(this.$overItem){
+			this.$overItem.removeClass("over");
+		}
+		
+		var selectIndex=-1;
+		
+		if(this.$selectItem!=null){
+			selectIndex=this.$selectItem.index();
+		}
+		
+		if($item.index()!=selectIndex){
+			this.$overItem=$item;
+			this.$overItem.addClass("over");
+		}else{
+			this.$overItem=null;
+		}
+		
+		this.moveBar($item);
+	};
+
+	BarMenu.prototype.removeOverItem=function(){
+		if(this.$overItem){
+			this.$overItem.removeClass("over");
+		}
+		this.$overItem=null;
+	};
+
+	BarMenu.prototype.setSelectMenuItem=function($item,animation){
+		var $oldItem=this.$selectItem;
+		
+		if(this.$selectItem){
+			this.$selectItem.removeClass("select");
+		}
+		this.$selectItem=$item;
+		this.$selectItem.addClass("select");
+
+		this.moveBar($item,animation);
+		
+		this.dispatchSelectEvent($oldItem,$item)
+	};
+
+	BarMenu.prototype.reSelectMenuItem=function(){
+		if(this.$selectItem){
+			this.moveBar(this.$selectItem);
+		}
+	};
+
+
+	BarMenu.prototype.moveBar=function($item,animation){
+		var left=-100;
+		var width=0;
+
+		if($item!=null){
+			left=$item.position(true).left+parseInt($item.css("margin-left"));
+			width=$item.outerWidth();
+		}
+		
+		if(animation==false){
+			this.$bar.css({
+				"left":left,
+				"width":width
+			});
+		}else{
+			this.$bar.stop().animate({
+				"left":left,
+				"width":width
+			},300,"easeOutQuint");
+		}
+		
+	};
+
+	BarMenu.prototype.setSelectMenuItemAt=function(index,animation){
+		this.setSelectMenuItem(this.$menuItems.eq(index),animation);
+	};
+	
+	BarMenu.prototype.dispatchSelectEvent=function($oldItem,$newItem){
+		var event=jQuery.Event("select");
+		
+		event.$oldItem=$oldItem;
+		event.$newItem=$newItem;
+		this.$barMenu.trigger(event);
+	};
+	
+
+	$(document).ready(function(){
+		var barMenu = new BarMenu("#barMenu1");
+		barMenu.setSelectMenuItemAt(0,false);
+		
+		barMenu.$barMenu.on("select",function(e){
+			var oldIndex=-1;
+			
+			if(e.$oldItem){
+				oldIndex=e.$oldItem.index();
+			}
+			
+			console.log("old="+oldIndex+"new="+e.$newItem.index())
+		});
+		
+	});
+	
+</script>
+
+<body>
+
+ <div class="bar-menu" id="barMenu1">
+    
+        <ul class="menu-body">
+            <li>웹동네 홈</li>
+            <li>공개 스터디</li>
+            <li>온라인 동영상 강의</li>
+            <li>참여형 특강</li>
+            <li>정보공유 세미나</li>
+            <li>기업/단체강의</li>
+        </ul>
+        
+        <div class="bar"> </div>
+
+    </div>
+
+
+</body>
+</html>

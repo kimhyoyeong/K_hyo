@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>바메뉴</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+	
+	<style>
+        * {
+			padding:0;
+			margin:0;
+		}
+		body{
+			font-size:9pt;
+		}
+		.bar-menu {
+			position:relative;
+			height:78px;
+			border:7px solid #eee;
+			cursor:pointer;
+		}
+		.bar-menu ul.menu-body {
+			position:relative;
+			list-style: none;
+			margin-top:10px;
+			height:100%;
+		}
+
+		.bar-menu ul.menu-body li {
+			height:30px;
+			padding:10px;
+	
+			margin-left:10px;
+			float:left;
+			line-height:30px;
+			vertical-align:middle;
+			border:4px solid #000;
+			display:inline-block;
+		}
+		/* 선택 메뉴 아이템 스타일 */
+		.bar-menu ul.menu-body li.select {
+			background-color:#ff0;
+		}
+		/* 오버 메뉴 아이템 스타일 */
+		.bar-menu ul.menu-body li.over {
+			background-color:#eee;
+		}
+		.bar-menu .bar {
+			width:0;
+			height:10px;
+			background-color:#f00;
+			position: absolute;
+			left:0;
+			bottom:0;
+		}
+		#barMenu1 {
+			position:relative;
+			left:100px;
+			top:100px;
+			width:700px;
+		}
+		#barMenu2 {
+			position:relative;
+			left:100px;
+			top:150px;
+			width:700px;
+		}
+		
+    </style>
+</head>
+<script>
+	
+	(function($){
+		$.fn.barMenu=function(){
+			this.each(function(index){
+				var barMenu = new BarMenu(this);
+				$(this).data("barMenu",barMenu);
+			});
+			return this;
+		};
+
+		$.fn.selectBarMenuAt=function(selectIndex,animation){
+			this.each(function(index){
+				var barMenu=$(this).data("barMenu");
+				if(barMenu)
+					barMenu.setSelectMenuItemAt(selectIndex,animation);
+			});
+			return this;
+		};
+	})(jQuery);
+
+	function BarMenu(selector){
+		this.$barMenu=null;
+		this._$menuBody=null;
+		this._$menuItems=null;
+		this._$overItem=null;
+		this._$selectItem=null;
+		this._$bar=null;
+		
+		this.init(selector);
+		this.initEvent();
+	}
+
+	BarMenu.prototype.init=function(selector){
+		this.$barMenu=$(selector);
+		this._$menuBody=this.$barMenu.find(".menu-body");
+		this._$menuItems=this._$menuBody.find("li");
+		this._$bar=this.$barMenu.find(".bar");
+	};
+	
+	BarMenu.prototype.initEvent=function(){
+		var objThis=this;
+		
+		this._$menuItems.mouseenter(function(e){
+			objThis.setOverMenuItem($(this));
+		});
+		
+		this._$menuItems.mouseleave(function(e){
+			objThis.removeOverItem();
+			objThis.reSelectMenuItem();
+			
+		});
+
+		this._$menuItems.click(function(e){
+			objThis.removeOverItem();
+			objThis.setSelectMenuItem($(this));
+		});
+	};
+	
+	BarMenu.prototype.setOverMenuItem=function($item){
+		if(this._$overItem){
+			this._$overItem.removeClass("over");
+		}
+		
+		var selectIndex=-1;
+		
+		if(this._$selectItem!=null){
+			selectIndex=this._$selectItem.index();
+		}
+		
+		if($item.index()!=selectIndex){
+			this._$overItem=$item;
+			this._$overItem.addClass("over");
+		}else{
+			this._$overItem=null;
+		}
+		
+		this.moveBar($item);
+	};
+
+	BarMenu.prototype.removeOverItem=function(){
+		if(this._$overItem){
+			this._$overItem.removeClass("over");
+		}
+		this._$overItem=null;
+	};
+
+	BarMenu.prototype.setSelectMenuItem=function($item,animation){
+		var $oldItem=this._$selectItem;
+		
+		if(this._$selectItem){
+			this._$selectItem.removeClass("select");
+		}
+		this._$selectItem=$item;
+		this._$selectItem.addClass("select");
+
+		this.moveBar($item,animation);
+		
+		this.dispatchSelectEvent($oldItem,$item)
+	};
+
+	BarMenu.prototype.reSelectMenuItem=function(){
+		if(this._$selectItem){
+			this.moveBar(this._$selectItem);
+		}
+	};
+
+
+	BarMenu.prototype.moveBar=function($item,animation){
+		var left=-100;
+		var width=0;
+
+		if($item!=null){
+			left=$item.position(true).left+parseInt($item.css("margin-left"));
+			width=$item.outerWidth();
+		}
+		
+		if(animation==false){
+			this._$bar.css({
+				"left":left,
+				"width":width
+			});
+		}else{
+			this._$bar.stop().animate({
+				"left":left,
+				"width":width
+			},300,"easeOutQuint");
+		}
+		
+	};
+
+	BarMenu.prototype.setSelectMenuItemAt=function(index,animation){
+		this.setSelectMenuItem(this._$menuItems.eq(index),animation);
+	};
+	
+	BarMenu.prototype.dispatchSelectEvent=function($oldItem,$newItem){
+		var event=jQuery.Event("select");
+		
+		event.$oldItem=$oldItem;
+		event.$newItem=$newItem;
+		this.$barMenu.trigger(event);
+	};
+	
+
+	$(document).ready(function(){
+		
+		var $barMenu=$(".bar-menu").barMenu();
+
+		$barMenu.on("select",function(e){
+			var oldIndex=-1;
+			
+			if(e.$oldItem){
+				oldIndex=e.$oldItem.index();
+			}
+			
+			console.log("old="+oldIndex+"new="+e.$newItem.index())
+		});
+
+		$barMenu.eq(0).selectBarMenuAt(1,false);
+		//$barMenu.eq(1).selectBarMenuAt(3,false);
+		
+	});
+	
+</script>
+
+<body>
+
+<div class="bar-menu" id="barMenu1">
+
+	<ul class="menu-body">
+		<li>웹동네 홈</li>
+		<li>공개 스터디</li>
+		<li>온라인 동영상 강의</li>
+		<li>참여형 특강</li>
+		<li>정보공유 세미나</li>
+		<li>기업/단체강의</li>
+	</ul>
+	
+	<div class="bar"> </div>
+
+</div>
+
+<div class="bar-menu" id="barMenu2">
+
+	<ul class="menu-body">
+		<li>웹동네 홈</li>
+		<li>공개 스터디</li>
+		<li>온라인 동영상 강의</li>
+		<li>참여형 특강</li>
+		<li>정보공유 세미나</li>
+		<li>기업/단체강의</li>
+	</ul>
+	
+	<div class="bar"> </div>
+
+</div>
+
+</body>
+</html>
