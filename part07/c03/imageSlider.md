@@ -47,35 +47,35 @@
 
 2. 이전/다음 이미지 출력 
 
-   2-1. 이미지 요소 상태 초기화 v1.js
+   2-1. 이미지 요소 상태 초기화 [v1.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v1.js)
 
-   2-2. 출력효과(애니메이션) 없이 이전, 다음 이미지보이기 v2.js
+   2-2. 출력효과(애니메이션) 없이 이전, 다음 이미지보이기 [v2.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v2.js)
 
-   2-3. 출력효과 추가 v3.js
+   2-3. 출력효과 추가 [v3.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v3.js)
 
 3. 인덱스 메뉴 처리
 
-   3-1. 인덱스 메뉴 아이템 활성화  v4.js
+   3-1. 인덱스 메뉴 아이템 활성화  [v4.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v4.js)
 
-   3-2. 도트 메뉴 아이템 선택 처리 v5.js
+   3-2. 도트 메뉴 아이템 선택 처리 [v5.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v5.js)
 
-4. 사용자 정의 이벤트 발생 처리 v6.js
+4. 사용자 정의 이벤트 발생 처리 [v6.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v6.js)
 
-5. 이미지 자동 전환 기능 구현 v7.js
+5. 이미지 자동 전환 기능 구현 [v7.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v7.js)
 
 6. 이미지 전환 옵션 적용
 
-   6-1. 이미지 전환 옵션 만들기 v8.js
+   6-1. 이미지 전환 옵션 만들기 [v8.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v8.js)
 
-   6-2. 이미지 전환 옵션 적용 v9.js
+   6-2. 이미지 전환 옵션 적용 [v9.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v9.js)
 
-7. 캡슐화 적용 v10.js
+7. 캡슐화 적용 [v10.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v10.js)
 
 8. 이미지 슬라이더 플러그인 만들기
 
-   8-1. 이미지 슬라이더 플러그인 만들기 v11.js
+   8-1. 이미지 슬라이더 플러그인 만들기 [v11.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v11.js)
 
-   8-2. N번째 이미지 선택 플러그인 만들기 v12.js
+   8-2. N번째 이미지 선택 플러그인 만들기 [v12.js](https://github.com/kimhyoyeong/K_hyo/blob/master/part07/c03/v12.js)
 
 
 
