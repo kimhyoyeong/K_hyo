@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+        <title>Vue Sample</title>
+    </head>
+    <body>
+        <div id="app">
+            {{message}}
+        </div>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script>
+            //인스턴스
+			new Vue({
+				el: '#app',//el 속성
+				data: { //data 속성
+					message: 'Hellow Vue.js!'
+				},
+				beforeCreate:function(){
+					console.log("beforeCreate");
+				},
+				created:function(){
+					console.log("created");
+				},
+				mounted:function(){
+					console.log("mounted");
+					this.message="값 변경했어용!";
+				},
+				updated:function(){
+					console.log("updated");
+				}
+				
+			})
+        </script>
+    </body>
+</html>

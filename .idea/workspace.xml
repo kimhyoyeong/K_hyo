@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="261a87da-b81b-4ee9-858e-6c1760241edb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue_study/sample_03_02.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vue_study/sample_03_1.html" />
+      <change beforePath="$PROJECT_DIR$/part05/c01/lesson.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part05/c03/lesson.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/css/imageslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/imageSlider.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner.psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/banner_dot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/btn_next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/btn_prev.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/button_dot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/images/panelbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/libs/jquery-1.11.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/libs/jquery.easing.1.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v10.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v11.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v12.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v4.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v8.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/part07/c03/v9.js" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sample_03_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue_study/sample_03_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_03_02.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue_study/sample_03_02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_icon_example.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mystudy/web_icon_example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setSelectMenuItemAt</find>
+      <find>selectBarMenuAt</find>
+      <find>dispatchSelectEvent</find>
+      <find>images</find>
+      <find>../img//</find>
+      <find>setSelectItemAt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>img</replace>
+      <replace>img/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/part07/c01/l01.html" />
+        <option value="F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js" />
+        <option value="F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step01_레이아웃_잡기/index.html" />
+        <option value="$PROJECT_DIR$/part07/c03/l01.html" />
+        <option value="$PROJECT_DIR$/mystudy/json_sample.json" />
+        <option value="$PROJECT_DIR$/mystudy/json.html" />
+        <option value="$PROJECT_DIR$/part07/c01/l02.html" />
+        <option value="$PROJECT_DIR$/mystudy/paging.html" />
+        <option value="$PROJECT_DIR$/part06/l01.html" />
+        <option value="$PROJECT_DIR$/part06/l02.html" />
+        <option value="$PROJECT_DIR$/part07/c04/css/tabpanel.css" />
+        <option value="$PROJECT_DIR$/part07/c04/l01.html" />
+        <option value="$PROJECT_DIR$/vue_study/sample_03_1.html" />
+        <option value="$PROJECT_DIR$/vue_study/sample_03_02.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1927" />
+    <option name="width" value="1860" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="K_hyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="K_hyo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="261a87da-b81b-4ee9-858e-6c1760241edb" name="Default" comment="" />
+      <created>1522713161354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522713161354</updated>
+      <workItem from="1522713162895" duration="7000" />
+      <workItem from="1523235352005" duration="7724000" />
+      <workItem from="1523248614803" duration="5485000" />
+      <workItem from="1523256369791" duration="7417000" />
+      <workItem from="1523318017019" duration="43000" />
+      <workItem from="1523328054393" duration="3536000" />
+      <workItem from="1523338040596" duration="604000" />
+      <workItem from="1523408391913" duration="6138000" />
+      <workItem from="1523420289168" duration="2212000" />
+      <workItem from="1523427176157" duration="499000" />
+      <workItem from="1523427944404" duration="2634000" />
+      <workItem from="1523849491752" duration="838000" />
+      <workItem from="1523850349984" duration="32000" />
+      <workItem from="1523850392900" duration="770000" />
+      <workItem from="1523851205393" duration="706000" />
+      <workItem from="1523851924570" duration="486000" />
+      <workItem from="1523852418841" duration="2689000" />
+      <workItem from="1523855117793" duration="1557000" />
+      <workItem from="1523856688662" duration="7444000" />
+      <workItem from="1523864263854" duration="2000" />
+      <workItem from="1523864268681" duration="1000" />
+      <workItem from="1523864293519" duration="5000" />
+      <workItem from="1523927669959" duration="16000" />
+      <workItem from="1523932560100" duration="27000" />
+      <workItem from="1523949843593" duration="2000" />
+      <workItem from="1523951568661" duration="39000" />
+      <workItem from="1523952506537" duration="20000" />
+      <workItem from="1523953009841" duration="6000" />
+      <workItem from="1523953597698" duration="19000" />
+      <workItem from="1523954085578" duration="6000" />
+      <workItem from="1523954093847" duration="1000" />
+      <workItem from="1523954950460" duration="13000" />
+      <workItem from="1523955249130" duration="7000" />
+      <workItem from="1523955259042" duration="10000" />
+      <workItem from="1524008947079" duration="11000" />
+      <workItem from="1524009119840" duration="6735000" />
+      <workItem from="1524030557418" duration="3348000" />
+      <workItem from="1524189773026" duration="14000" />
+      <workItem from="1524192428653" duration="2918000" />
+      <workItem from="1524446041131" duration="8025000" />
+      <workItem from="1524458360794" duration="1444000" />
+      <workItem from="1524459817387" duration="4000" />
+      <workItem from="1524528982579" duration="1939000" />
+      <workItem from="1524531081466" duration="101000" />
+      <workItem from="1524531670061" duration="217000" />
+      <workItem from="1524532131124" duration="994000" />
+      <workItem from="1524533694861" duration="8162000" />
+      <workItem from="1524555471639" duration="1246000" />
+      <workItem from="1524557217765" duration="1983000" />
+      <workItem from="1524614114973" duration="16000" />
+      <workItem from="1527916826861" duration="1038000" />
+      <workItem from="1527922680560" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89544000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21908316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11732456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11732456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/part07/c03/l01.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step0802_n번째_이미지_플러그인_만들기/imageslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l02.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l02.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l02.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l02.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/c01.html" />
+    <entry file="file://$PROJECT_DIR$/mystudy/javascript_shorthand.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step01_레이아웃_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step01_레이아웃_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/css/barmenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/01장_barmenu/01_complete/step0603_플러그인제작_barMenu선택처리_플러그인_만들기/barmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c03/l02.html" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/css/imageslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="79" column="15" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step01_레이아웃_잡기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step0802_n번째_이미지_플러그인_만들기/imageslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step0802_n번째_이미지_플러그인_만들기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step0301_인덱스메뉴처리_인덱스메뉴아이템_활성화/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="95" column="43" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="96" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/03장_imageslider/01_complete/step0301_인덱스메뉴처리_인덱스메뉴아이템_활성화/imageslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mystudy/paging.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l02.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c01/l01.html" />
+    <entry file="file://$PROJECT_DIR$/mystudy/json.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c03/l01.html" />
+    <entry file="file://$PROJECT_DIR$/mystudy/json_sample.json" />
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/04장_tabpanel/01_complete/step01_레이아웃_잡기/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/999_코딩연습/07부_OOP적용_실무/04장_tabpanel/01_complete/css/tabpanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part07/c04/tabpanel.css" />
+    <entry file="file://$PROJECT_DIR$/part06/lesson.md" />
+    <entry file="file://$PROJECT_DIR$/part06/l01.html" />
+    <entry file="file://$PROJECT_DIR$/part06/l02.html" />
+    <entry file="file://$PROJECT_DIR$/part07/c04/css/tabpanel.css" />
+    <entry file="file://$PROJECT_DIR$/part07/c04/l01.html" />
+    <entry file="file://$PROJECT_DIR$/mystudy/web_icon_example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_study/sample_03_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_study/sample_03_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
