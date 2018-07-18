@@ -154,7 +154,7 @@ module.exports = {
             test:/\.(s*)css$/,
             use: ExtractTextPlugin.extract({
               fallback: 'style-loader',
-              use: ['css-loader','sass-loader']
+              use: ['css-loader?sourceMap','sass-loader?sourceMap']
             })
         },
         {
@@ -198,7 +198,8 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 9000
-  }
+  },
+  devtool: 'source-map'
 }
 ```
 
@@ -282,4 +283,6 @@ $ npm install html-webpack-plugin --save-dev//기본적으로, bundle한 css, js
 [Babel 6와 Webpack 4를 이용한 ES6 환경 구축]: https://poiemaweb.com/es6-babel
 
 [웹팩4로 CSS와 기타 파일 번들링하기]: https://www.zerocho.com/category/Webpack/post/58ac2d6f2e437800181c1657
+
+[webpack 설정 option에 대해서]: https://trustyoo86.github.io/webpack/2018/01/10/webpack-configuration.html
 
